@@ -22,3 +22,17 @@ Constraints
 1≤ Q ≤ 10^6
 
 1≤ X ≤ N
+
+
+Smaple input
+5 2
+1 0 1 1 0
+1 2
+0 1 4
+
+Output
+ODD
+
+Explanation
+Our first query is 1 2 that means that we have to flip the 2nd bit in the given array so now our array becomes 1 1 1 1 0
+2nd query is 0 1 4 which means that if i pick the subarray 1 to 4 i.e 1 1 1 1 then the number formed by decimal representation of this binary number is of what kind ?. Here the number formed is 15 so its odd and ODD is the output
